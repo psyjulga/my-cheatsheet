@@ -1,4 +1,4 @@
-### My Cheatsheet
+### 💃 My Cheatsheet 🐞
 
 collection of 
 - array methods 
