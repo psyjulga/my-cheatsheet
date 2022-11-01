@@ -5,6 +5,11 @@ const myObj = {
 	age: 35,
 }
 
+const myIterable = [
+	['name', 'Julia'],
+	['age', 36],
+]
+
 // OBJECT.KEYS
 const myKeys = Object.keys(myObj)
 // console.log(myKeys)
@@ -19,6 +24,15 @@ const myValues = Object.values(myObj)
 const myEntries = Object.entries(myObj)
 // console.log(myEntries)
 // [ [ 'name', 'Julia' ], [ 'age', 35 ] ]
+
+// OBJECT.FROMENTRIES
+// The Object.fromEntries() method transforms a list of key-value pairs into an object.
+
+const fromEntries = Object.fromEntries(myIterable)
+console.log(fromEntries)
+// { name: 'Julia', age: 36 }
+
+// ------------------------------------------------
 
 // ERROR OBJECT
 
